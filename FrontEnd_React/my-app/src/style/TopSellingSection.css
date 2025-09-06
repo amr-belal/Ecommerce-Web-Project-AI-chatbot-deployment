@@ -1,0 +1,250 @@
+.top-selling-section {
+  background: linear-gradient(135deg, #f5f0e8 0%, #ede4d3 50%, #F5AB98 100%);
+  min-height: 100vh;
+  position: relative;
+
+  
+  
+}
+.body-content {
+  /* background-color: linear-gradient(135deg, #f5f0e8 0%, #ede4d3 50%, #F5AB98 100%); */
+
+  /* background: linear-gradient(135deg, #f5f0e8 0%, #ede4d3 50%, #F5AB98 100%); */
+  padding: 80px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.perfume-nav {
+  width: 100%;
+  position: relative;
+  top: 0;
+  z-index: 3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px 0;
+  background-color: #faece8; 
+  border-bottom: 2px solid #969696;
+  border-top:2px solid #969696;
+  .nav {
+    .nav-item {
+      .nav-link {
+        font-family: 'Georgia', serif;
+        font-size: 1rem;
+        color: #2d2d2d;
+        font-weight: 500;
+        padding: 0 10px;
+
+        &:hover {
+          color: #b26e63; 
+        }
+      }
+    }
+
+    .separator {
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+      color: #333;
+      padding: 0 8px;
+    }
+  }
+}
+
+.card-body-style{
+  background-color: #faece8;
+  h5{
+    font-size: larger;
+    color: #7e534c;
+    font-weight: bold;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  p{
+    font-size: small;
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+}
+/* PerfumeHeader.css */
+
+
+.HeaderTitle{
+    
+  .perfume-header-container {
+  background: linear-gradient(135deg, #f5e6f0 0%, #e8d5e8 50%, #f0e6f5 100%);
+  min-height: 300px;
+  /* padding: 3rem 0; */
+}
+
+.perfume-main-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  color: #4a4a4a;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-size: 2.5rem;
+ 
+}
+
+
+}
+
+
+
+
+
+
+.perfume-subtitle {
+ font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  color: #4a4a4a;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-size: 2.5rem;
+  margin-right: 200px;
+  
+}
+
+.perfume-script-text {
+    /* font-weight:; */
+  font-family: "Brush Script MT", cursive;
+  font-style: italic;
+  color: #ccb466;
+  font-size:2em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.perfume-collection-title {
+   font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  color: #4a4a4a;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-size: 2.5rem;
+  
+  
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .perfume-main-title {
+    font-size: 2.5rem;
+  }
+  
+  .perfume-subtitle,
+  .perfume-collection-title {
+    font-size: 1.5rem;
+  }
+  
+  .perfume-header-container {
+    padding: 2rem 0;
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .perfume-main-title {
+    font-size: 2rem;
+  }
+  
+  .perfume-subtitle,
+  .perfume-collection-title {
+    font-size: 1.25rem;
+  }
+  
+  .perfume-script-text {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+
+
+
+/* Tablet (768px and down) */
+@media (max-width: 768px) {
+  .perfume-nav .nav-item {
+    margin: 0.25rem 0.5rem;
+  }
+  
+  .perfume-nav .nav-link {
+    font-size: 0.9rem;
+    padding: 0.25rem 0;
+  }
+  
+  .separator {
+    margin: 0 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile (576px and down) */
+@media (max-width: 576px) {
+  .perfume-nav .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .perfume-nav .nav-item {
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+  
+  .perfume-nav .nav-link {
+    font-size: 1rem;
+    padding: 0.75rem 0;
+    display: block;
+    width: 100%;
+  }
+  
+  .separator {
+    display: none; /* Hide separators on mobile */
+  }
+}
+
+/* Extra small mobile (400px and down) */
+@media (max-width: 400px) {
+  .perfume-nav .nav-link {
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+  }
+  
+  .perfume-nav {
+    padding: 1rem 0;
+  }
+}
+
+/* Alternative: Horizontal scroll for small screens */
+.perfume-nav-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.perfume-nav-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+@media (max-width: 576px) {
+  .perfume-nav-scroll .nav {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    min-width: max-content;
+    padding: 0 1rem;
+  }
+  
+  .perfume-nav-scroll .nav-item {
+    flex-shrink: 0;
+    margin: 0 0.5rem;
+  }
+  
+  .perfume-nav-scroll .separator {
+    display: flex;
+    flex-shrink: 0;
+  }
+}

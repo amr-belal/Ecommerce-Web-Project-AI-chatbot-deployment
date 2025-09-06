@@ -1,0 +1,47 @@
+
+
+.main-navbar{
+  
+  background-color: #F1EADE;
+  border-bottom: 1px solid #6e6e6e;
+}
+
+.main-navbar .nav {
+  gap: 20px; 
+  
+}
+
+.main-navbar .navbar-brand {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 40px; 
+}
+
+
+#brand {
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 40px; 
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.container-bag{
+    border-left:  1px solid #6e6e6e;
+}
+
+
+#component{
+    margin-top: 8px;
+    margin-inline: 20px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4b4b4b;
+}
+
+
+#container-border{
+    position: relative;
+}

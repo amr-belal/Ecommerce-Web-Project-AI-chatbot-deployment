@@ -1,0 +1,233 @@
+.main-page-container{
+    background: scroll;
+    background: linear-gradient(135deg, #ede4d3 0%, #FCE0D9 50%, #f7af9b 100%);
+}
+
+
+
+.filterButton{
+     background: linear-gradient(135deg, #ff7dc4 0%, #F5AB98 100%);
+     border:1px solid #949494;
+     border-color: #949494;
+     border-radius: 1px;
+     cursor: pointer;
+  
+  transition: all 0.3s ease;
+}
+
+.filterButton:hover{
+    color: #2c2c2c;
+  background-color: #F1EADE;
+  transform: translateY(-2px);
+  box-shadow:  0 10px 20px #ff67bb;
+
+}
+
+h2{ 
+    
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin: 0 40px; 
+  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button-details{
+    background: #ff7dc4;
+    height: 50px;
+    width: 300px;
+}
+
+
+
+.ProductCard {
+    height: 450px;
+    padding: 0;
+    margin: 15px;
+    background: linear-gradient(135deg, #FAEFEE 0%, #F5F0ED 100%);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    width: 400px;
+    max-width: 300px;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.ProductCard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(255, 125, 196, 0.2);
+}
+
+
+.ProductCard .card-img-top {
+    height: 280px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    transition: transform 0.3s ease;
+    padding: 20px;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.ProductCard:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+
+.ProductCard .card-body {
+    padding: 20px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+}
+
+
+.ProductCard .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c2c2c;
+    margin-bottom: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.add{
+     background: linear-gradient(135deg, #ff7dc4 0%, #ff67bb 100%);
+    border: none;
+    height: 45px;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 125, 196, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.add:hover {
+    background: linear-gradient(135deg, #9b0457 0%, #9b0457 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(72, 11, 45, 0.5);
+    color: white;
+}
+
+
+.ProductCard .card-text {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff7dc4;
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.button-details {
+    background: linear-gradient(135deg, #ff7dc4 0%, #ff67bb 100%);
+    border: none;
+    height: 45px;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 125, 196, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.button-details:hover {
+    background: linear-gradient(135deg, #9b0457 0%, #9b0457 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(72, 11, 45, 0.5);
+    color: white;
+}
+
+
+.container {
+    padding: 0 20px;
+}
+
+
+.text-muted {
+    color: #6c757d !important;
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+.row {
+    margin: 0 -15px;
+}
+
+
+@media (max-width: 768px) {
+    .ProductCard {
+        margin: 10px auto;
+        max-width: 280px;
+        height: 420px;
+    }
+    
+    h2 {
+        font-size: 24px;
+        margin: 20px 0;
+    }
+    
+    .filterButton {
+        padding: 10px 18px;
+        font-size: 12px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .ProductCard {
+        height: 400px;
+    }
+    
+    .ProductCard .card-img-top {
+        height: 250px;
+        padding: 15px;
+    }
+    
+    .ProductCard .card-body {
+        height: 150px;
+        padding: 15px;
+    }
+}
+
+
+.ProductCard .card-img-top {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+
+.ProductCard .card-img-top[src] {
+    animation: none;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+
+
+    

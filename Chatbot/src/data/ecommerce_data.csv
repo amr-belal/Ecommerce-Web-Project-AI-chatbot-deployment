@@ -1,0 +1,703 @@
+Product_Name,Product_Category,Price,Rating
+Smartphone 1,Electronics,610.13,2.3
+Smartphone 2,Electronics,1727.14,3.7
+Smartphone 3,Electronics,1311.41,3.9
+Smartphone 4,Electronics,1625.76,4.0
+Smartphone 5,Electronics,1233.0,3.6
+Smartphone 6,Electronics,1542.52,2.3
+Smartphone 7,Electronics,941.24,3.0
+Smartphone 8,Electronics,1972.95,2.1
+Smartphone 9,Electronics,1054.01,2.2
+Smartphone 10,Electronics,1886.41,4.9
+Smartphone 11,Electronics,1379.81,3.3
+Smartphone 12,Electronics,355.01,1.7
+Smartphone 13,Electronics,1633.77,2.6
+Smartphone 14,Electronics,1535.11,4.5
+Smartphone 15,Electronics,1434.41,2.4
+Smartphone 16,Electronics,1738.31,4.8
+Smartphone 17,Electronics,1354.85,3.6
+Smartphone 18,Electronics,524.6,1.3
+Smartphone 19,Electronics,169.36,3.4
+Smartphone 20,Electronics,581.63,3.3
+Laptop 1,Electronics,1348.78,3.7
+Laptop 2,Electronics,763.92,4.1
+Laptop 3,Electronics,340.9,3.3
+Laptop 4,Electronics,1961.29,3.7
+Laptop 5,Electronics,1307.64,2.1
+Laptop 6,Electronics,970.2,3.3
+Laptop 7,Electronics,738.19,2.6
+Laptop 8,Electronics,384.68,4.5
+Laptop 9,Electronics,836.58,4.7
+Laptop 10,Electronics,1116.14,3.9
+Laptop 11,Electronics,934.77,4.3
+Laptop 12,Electronics,1441.08,3.3
+Laptop 13,Electronics,1421.34,1.6
+Laptop 14,Electronics,635.48,4.9
+Laptop 15,Electronics,1354.04,4.1
+Laptop 16,Electronics,959.67,4.6
+Laptop 17,Electronics,1684.93,1.7
+Laptop 18,Electronics,876.0,3.5
+Laptop 19,Electronics,1918.15,1.7
+Laptop 20,Electronics,1822.9,3.2
+Wireless Earbuds 1,Electronics,84.76,2.6
+Wireless Earbuds 2,Electronics,1542.28,1.2
+Wireless Earbuds 3,Electronics,1695.14,1.6
+Wireless Earbuds 4,Electronics,1637.45,2.6
+Wireless Earbuds 5,Electronics,684.25,2.1
+Wireless Earbuds 6,Electronics,317.49,3.5
+Wireless Earbuds 7,Electronics,1631.19,4.8
+Wireless Earbuds 8,Electronics,1034.59,3.3
+Wireless Earbuds 9,Electronics,181.87,3.6
+Wireless Earbuds 10,Electronics,1133.13,3.5
+Wireless Earbuds 11,Electronics,870.79,1.8
+Wireless Earbuds 12,Electronics,1310.1,2.8
+Wireless Earbuds 13,Electronics,560.85,2.0
+Wireless Earbuds 14,Electronics,1333.55,1.7
+Wireless Earbuds 15,Electronics,1173.17,4.5
+Wireless Earbuds 16,Electronics,1708.74,4.0
+Wireless Earbuds 17,Electronics,1702.29,2.6
+Wireless Earbuds 18,Electronics,608.98,2.8
+Wireless Earbuds 19,Electronics,1779.52,3.2
+Wireless Earbuds 20,Electronics,948.76,1.7
+Smartwatch 1,Electronics,1676.92,3.0
+Smartwatch 2,Electronics,1388.84,4.9
+Smartwatch 3,Electronics,1642.6,4.9
+Smartwatch 4,Electronics,967.9,1.3
+Smartwatch 5,Electronics,819.8,5.0
+Smartwatch 6,Electronics,334.87,4.7
+Smartwatch 7,Electronics,157.76,4.5
+Smartwatch 8,Electronics,874.57,2.6
+Smartwatch 9,Electronics,435.89,4.2
+Smartwatch 10,Electronics,794.67,4.7
+Smartwatch 11,Electronics,1253.46,2.2
+Smartwatch 12,Electronics,71.24,4.6
+Smartwatch 13,Electronics,135.66,2.4
+Smartwatch 14,Electronics,274.08,1.8
+Smartwatch 15,Electronics,1132.74,2.6
+Smartwatch 16,Electronics,326.19,1.7
+Smartwatch 17,Electronics,1635.32,2.9
+Smartwatch 18,Electronics,1432.67,4.0
+Smartwatch 19,Electronics,954.6,4.9
+Smartwatch 20,Electronics,170.31,1.6
+Tablet 1,Electronics,356.77,1.9
+Tablet 2,Electronics,748.88,3.7
+Tablet 3,Electronics,513.89,3.9
+Tablet 4,Electronics,886.77,3.5
+Tablet 5,Electronics,1453.38,1.5
+Tablet 6,Electronics,519.99,3.1
+Tablet 7,Electronics,851.74,1.2
+Tablet 8,Electronics,1895.8,2.2
+Tablet 9,Electronics,654.21,2.7
+Tablet 10,Electronics,1207.91,2.4
+Tablet 11,Electronics,718.49,1.1
+Tablet 12,Electronics,40.75,1.7
+Tablet 13,Electronics,149.19,4.3
+Tablet 14,Electronics,490.99,2.1
+Tablet 15,Electronics,1445.01,3.2
+Tablet 16,Electronics,1391.26,4.1
+Tablet 17,Electronics,1430.7,2.2
+Tablet 18,Electronics,700.53,3.3
+Tablet 19,Electronics,691.89,1.4
+Tablet 20,Electronics,1177.62,4.9
+T-Shirt 1,Clothing,1223.71,1.6
+T-Shirt 2,Clothing,1031.97,2.8
+T-Shirt 3,Clothing,1292.56,4.4
+T-Shirt 4,Clothing,115.25,2.7
+T-Shirt 5,Clothing,1265.6,3.7
+T-Shirt 6,Clothing,1364.29,2.1
+T-Shirt 7,Clothing,1194.4,5.0
+T-Shirt 8,Clothing,1998.75,3.2
+T-Shirt 9,Clothing,1573.48,4.6
+T-Shirt 10,Clothing,963.34,4.3
+T-Shirt 11,Clothing,443.63,2.7
+T-Shirt 12,Clothing,810.3,4.9
+T-Shirt 13,Clothing,1942.16,4.5
+T-Shirt 14,Clothing,179.29,2.5
+T-Shirt 15,Clothing,1152.63,1.2
+T-Shirt 16,Clothing,265.98,4.4
+T-Shirt 17,Clothing,561.68,3.5
+T-Shirt 18,Clothing,1368.32,3.7
+T-Shirt 19,Clothing,1678.66,4.2
+T-Shirt 20,Clothing,1323.13,2.9
+Jeans 1,Clothing,143.08,3.8
+Jeans 2,Clothing,1162.54,3.3
+Jeans 3,Clothing,67.71,1.4
+Jeans 4,Clothing,1687.27,1.2
+Jeans 5,Clothing,596.95,1.2
+Jeans 6,Clothing,655.42,5.0
+Jeans 7,Clothing,901.12,4.2
+Jeans 8,Clothing,1005.65,2.3
+Jeans 9,Clothing,324.2,4.5
+Jeans 10,Clothing,729.71,1.2
+Jeans 11,Clothing,1250.31,1.5
+Jeans 12,Clothing,861.88,1.5
+Jeans 13,Clothing,202.59,3.9
+Jeans 14,Clothing,1303.06,4.4
+Jeans 15,Clothing,1183.45,1.4
+Jeans 16,Clothing,1282.36,4.2
+Jeans 17,Clothing,632.65,2.0
+Jeans 18,Clothing,1848.54,1.1
+Jeans 19,Clothing,1795.66,2.3
+Jeans 20,Clothing,1299.53,4.1
+Sneakers 1,Clothing,1581.01,1.3
+Sneakers 2,Clothing,1229.38,4.4
+Sneakers 3,Clothing,1010.49,4.2
+Sneakers 4,Clothing,944.61,4.0
+Sneakers 5,Clothing,1163.18,1.2
+Sneakers 6,Clothing,240.57,1.6
+Sneakers 7,Clothing,1954.86,4.0
+Sneakers 8,Clothing,824.31,4.6
+Sneakers 9,Clothing,429.53,3.2
+Sneakers 10,Clothing,658.63,4.5
+Sneakers 11,Clothing,260.56,4.3
+Sneakers 12,Clothing,583.65,2.3
+Sneakers 13,Clothing,973.55,2.2
+Sneakers 14,Clothing,1744.76,2.6
+Sneakers 15,Clothing,686.6,3.3
+Sneakers 16,Clothing,1364.79,3.4
+Sneakers 17,Clothing,343.56,4.3
+Sneakers 18,Clothing,884.34,2.2
+Sneakers 19,Clothing,482.16,3.9
+Sneakers 20,Clothing,1489.57,4.4
+Jacket 1,Clothing,492.01,2.4
+Jacket 2,Clothing,763.49,4.3
+Jacket 3,Clothing,1891.09,4.9
+Jacket 4,Clothing,763.13,1.6
+Jacket 5,Clothing,727.83,3.1
+Jacket 6,Clothing,1977.12,1.5
+Jacket 7,Clothing,1604.69,4.4
+Jacket 8,Clothing,1441.58,4.4
+Jacket 9,Clothing,595.1,2.8
+Jacket 10,Clothing,1876.78,1.8
+Jacket 11,Clothing,628.89,4.6
+Jacket 12,Clothing,1130.35,4.9
+Jacket 13,Clothing,346.28,2.7
+Jacket 14,Clothing,1246.94,2.7
+Jacket 15,Clothing,1152.88,2.2
+Jacket 16,Clothing,17.09,3.6
+Jacket 17,Clothing,1172.46,2.5
+Jacket 18,Clothing,73.42,4.4
+Jacket 19,Clothing,950.9,4.4
+Jacket 20,Clothing,1938.29,4.2
+Dress 1,Clothing,345.15,4.5
+Dress 2,Clothing,967.62,3.0
+Dress 3,Clothing,870.51,2.9
+Dress 4,Clothing,1893.89,1.4
+Dress 5,Clothing,840.03,4.2
+Dress 6,Clothing,806.4,2.9
+Dress 7,Clothing,1750.48,4.0
+Dress 8,Clothing,941.97,3.6
+Dress 9,Clothing,231.91,2.4
+Dress 10,Clothing,77.04,1.0
+Dress 11,Clothing,1141.93,3.1
+Dress 12,Clothing,1115.13,2.2
+Dress 13,Clothing,1703.84,1.1
+Dress 14,Clothing,1892.11,3.0
+Dress 15,Clothing,1599.23,3.2
+Dress 16,Clothing,1034.15,2.2
+Dress 17,Clothing,1236.43,2.2
+Dress 18,Clothing,695.69,1.1
+Dress 19,Clothing,1871.36,4.1
+Dress 20,Clothing,1509.41,4.6
+Microwave 1,Home Appliances,570.78,2.4
+Microwave 2,Home Appliances,469.01,3.8
+Microwave 3,Home Appliances,871.36,2.6
+Microwave 4,Home Appliances,213.52,4.6
+Microwave 5,Home Appliances,1834.05,1.1
+Microwave 6,Home Appliances,1864.8,2.2
+Microwave 7,Home Appliances,896.19,1.9
+Microwave 8,Home Appliances,1364.24,1.6
+Microwave 9,Home Appliances,1112.17,1.9
+Microwave 10,Home Appliances,268.5,1.4
+Microwave 11,Home Appliances,1527.11,3.7
+Microwave 12,Home Appliances,1894.5,3.0
+Microwave 13,Home Appliances,252.63,1.2
+Microwave 14,Home Appliances,12.33,4.0
+Microwave 15,Home Appliances,297.2,1.2
+Microwave 16,Home Appliances,1810.6,4.4
+Microwave 17,Home Appliances,629.05,4.4
+Microwave 18,Home Appliances,441.39,4.4
+Microwave 19,Home Appliances,1745.09,2.9
+Microwave 20,Home Appliances,1319.78,4.4
+Refrigerator 1,Home Appliances,1992.38,4.6
+Refrigerator 2,Home Appliances,789.25,2.0
+Refrigerator 3,Home Appliances,1394.85,3.6
+Refrigerator 4,Home Appliances,1379.37,1.5
+Refrigerator 5,Home Appliances,1834.95,3.2
+Refrigerator 6,Home Appliances,473.28,1.9
+Refrigerator 7,Home Appliances,730.16,1.5
+Refrigerator 8,Home Appliances,1042.16,2.8
+Refrigerator 9,Home Appliances,1395.82,3.6
+Refrigerator 10,Home Appliances,803.26,3.2
+Refrigerator 11,Home Appliances,1345.66,1.1
+Refrigerator 12,Home Appliances,1955.85,2.1
+Refrigerator 13,Home Appliances,961.35,3.7
+Refrigerator 14,Home Appliances,577.29,2.5
+Refrigerator 15,Home Appliances,1868.09,2.5
+Refrigerator 16,Home Appliances,35.59,2.1
+Refrigerator 17,Home Appliances,1862.29,4.4
+Refrigerator 18,Home Appliances,1077.15,1.6
+Refrigerator 19,Home Appliances,1694.0,3.9
+Refrigerator 20,Home Appliances,1326.71,3.9
+Washing Machine 1,Home Appliances,1133.83,3.4
+Washing Machine 2,Home Appliances,214.92,2.8
+Washing Machine 3,Home Appliances,1379.48,4.7
+Washing Machine 4,Home Appliances,474.51,1.9
+Washing Machine 5,Home Appliances,1314.5,3.0
+Washing Machine 6,Home Appliances,468.73,1.9
+Washing Machine 7,Home Appliances,1423.95,4.7
+Washing Machine 8,Home Appliances,206.29,4.0
+Washing Machine 9,Home Appliances,1482.62,2.9
+Washing Machine 10,Home Appliances,1881.98,2.9
+Washing Machine 11,Home Appliances,351.06,2.3
+Washing Machine 12,Home Appliances,1607.82,2.1
+Washing Machine 13,Home Appliances,1540.92,4.2
+Washing Machine 14,Home Appliances,1379.25,2.9
+Washing Machine 15,Home Appliances,1449.58,2.9
+Washing Machine 16,Home Appliances,565.26,2.0
+Washing Machine 17,Home Appliances,627.25,1.8
+Washing Machine 18,Home Appliances,946.51,4.9
+Washing Machine 19,Home Appliances,517.78,2.1
+Washing Machine 20,Home Appliances,991.3,1.5
+Air Conditioner 1,Home Appliances,860.18,1.7
+Air Conditioner 2,Home Appliances,461.12,2.6
+Air Conditioner 3,Home Appliances,1715.66,1.2
+Air Conditioner 4,Home Appliances,410.49,4.9
+Air Conditioner 5,Home Appliances,1534.05,1.5
+Air Conditioner 6,Home Appliances,890.08,1.5
+Air Conditioner 7,Home Appliances,1627.28,1.9
+Air Conditioner 8,Home Appliances,821.2,2.0
+Air Conditioner 9,Home Appliances,1669.9,1.8
+Air Conditioner 10,Home Appliances,446.79,2.6
+Air Conditioner 11,Home Appliances,208.54,2.2
+Air Conditioner 12,Home Appliances,1534.57,4.2
+Air Conditioner 13,Home Appliances,532.22,2.6
+Air Conditioner 14,Home Appliances,1631.12,3.0
+Air Conditioner 15,Home Appliances,1362.91,2.3
+Air Conditioner 16,Home Appliances,1547.55,3.3
+Air Conditioner 17,Home Appliances,80.17,2.1
+Air Conditioner 18,Home Appliances,1150.45,3.3
+Air Conditioner 19,Home Appliances,948.89,1.5
+Air Conditioner 20,Home Appliances,79.29,3.8
+Vacuum Cleaner 1,Home Appliances,1751.12,1.2
+Vacuum Cleaner 2,Home Appliances,1835.26,4.1
+Vacuum Cleaner 3,Home Appliances,229.62,3.5
+Vacuum Cleaner 4,Home Appliances,1269.52,4.1
+Vacuum Cleaner 5,Home Appliances,453.41,2.6
+Vacuum Cleaner 6,Home Appliances,1208.33,2.6
+Vacuum Cleaner 7,Home Appliances,1094.75,4.7
+Vacuum Cleaner 8,Home Appliances,515.91,1.6
+Vacuum Cleaner 9,Home Appliances,1362.86,4.4
+Vacuum Cleaner 10,Home Appliances,1637.72,2.6
+Vacuum Cleaner 11,Home Appliances,261.24,3.7
+Vacuum Cleaner 12,Home Appliances,796.53,2.0
+Vacuum Cleaner 13,Home Appliances,1632.0,3.1
+Vacuum Cleaner 14,Home Appliances,1362.68,1.9
+Vacuum Cleaner 15,Home Appliances,163.34,4.6
+Vacuum Cleaner 16,Home Appliances,1026.22,1.6
+Vacuum Cleaner 17,Home Appliances,1166.66,1.1
+Vacuum Cleaner 18,Home Appliances,261.03,1.5
+Vacuum Cleaner 19,Home Appliances,1299.95,4.1
+Vacuum Cleaner 20,Home Appliances,1151.13,2.8
+Novel 1,Books,1293.53,1.2
+Novel 2,Books,1273.72,2.5
+Novel 3,Books,32.37,4.7
+Novel 4,Books,1590.26,2.9
+Novel 5,Books,1150.41,1.8
+Novel 6,Books,1193.76,4.5
+Novel 7,Books,677.33,2.1
+Novel 8,Books,1377.33,4.1
+Novel 9,Books,179.41,2.1
+Novel 10,Books,1911.14,4.7
+Novel 11,Books,1131.53,1.9
+Novel 12,Books,234.55,1.8
+Novel 13,Books,398.35,3.2
+Novel 14,Books,1654.67,3.7
+Novel 15,Books,973.08,3.1
+Novel 16,Books,691.53,3.5
+Novel 17,Books,1452.72,2.6
+Novel 18,Books,318.72,4.9
+Novel 19,Books,1924.15,4.7
+Novel 20,Books,1365.38,2.7
+Science Book 1,Books,1155.22,2.1
+Science Book 2,Books,72.38,1.2
+Science Book 3,Books,1750.12,3.4
+Science Book 4,Books,1009.62,2.9
+Science Book 5,Books,176.55,2.2
+Science Book 6,Books,364.15,3.3
+Science Book 7,Books,1831.94,3.5
+Science Book 8,Books,941.26,3.3
+Science Book 9,Books,17.57,2.4
+Science Book 10,Books,1494.48,2.5
+Science Book 11,Books,1261.79,1.6
+Science Book 12,Books,167.07,3.1
+Science Book 13,Books,44.01,1.4
+Science Book 14,Books,542.62,2.2
+Science Book 15,Books,1825.57,2.2
+Science Book 16,Books,1004.35,2.1
+Science Book 17,Books,1477.51,1.0
+Science Book 18,Books,342.31,3.2
+Science Book 19,Books,1346.42,1.7
+Science Book 20,Books,758.86,1.0
+History Book 1,Books,587.66,3.7
+History Book 2,Books,115.68,4.9
+History Book 3,Books,674.17,4.7
+History Book 4,Books,104.87,3.3
+History Book 5,Books,1532.91,4.7
+History Book 6,Books,1385.01,2.9
+History Book 7,Books,1210.7,3.6
+History Book 8,Books,1925.25,1.8
+History Book 9,Books,808.69,4.8
+History Book 10,Books,1930.77,4.0
+History Book 11,Books,977.56,4.3
+History Book 12,Books,1655.22,4.6
+History Book 13,Books,128.19,4.5
+History Book 14,Books,1614.81,5.0
+History Book 15,Books,1406.98,1.4
+History Book 16,Books,625.84,1.3
+History Book 17,Books,704.73,2.2
+History Book 18,Books,1764.66,1.9
+History Book 19,Books,1799.96,1.2
+History Book 20,Books,178.95,1.5
+Comics 1,Books,1699.22,2.1
+Comics 2,Books,1264.03,3.6
+Comics 3,Books,39.43,1.6
+Comics 4,Books,720.27,4.7
+Comics 5,Books,472.05,2.9
+Comics 6,Books,903.28,2.6
+Comics 7,Books,801.37,2.0
+Comics 8,Books,402.36,1.2
+Comics 9,Books,785.55,2.1
+Comics 10,Books,166.15,3.7
+Comics 11,Books,1223.54,4.7
+Comics 12,Books,1346.72,2.6
+Comics 13,Books,1417.85,2.0
+Comics 14,Books,1682.97,1.4
+Comics 15,Books,29.38,1.8
+Comics 16,Books,1163.45,4.9
+Comics 17,Books,1685.59,2.7
+Comics 18,Books,300.27,1.2
+Comics 19,Books,743.68,3.3
+Comics 20,Books,1415.98,1.2
+Biography 1,Books,1455.68,4.1
+Biography 2,Books,396.36,1.2
+Biography 3,Books,1866.94,3.2
+Biography 4,Books,1573.22,1.2
+Biography 5,Books,86.51,3.6
+Biography 6,Books,1665.26,5.0
+Biography 7,Books,86.81,5.0
+Biography 8,Books,1247.95,3.6
+Biography 9,Books,705.09,4.6
+Biography 10,Books,329.39,2.1
+Biography 11,Books,1633.9,1.2
+Biography 12,Books,434.56,2.9
+Biography 13,Books,1288.34,3.9
+Biography 14,Books,522.55,1.9
+Biography 15,Books,880.03,2.3
+Biography 16,Books,1895.93,1.3
+Biography 17,Books,1072.63,3.0
+Biography 18,Books,255.67,4.9
+Biography 19,Books,1294.65,1.4
+Biography 20,Books,1099.54,3.2
+Lipstick 1,Beauty,1023.63,1.8
+Lipstick 2,Beauty,1131.54,3.1
+Lipstick 3,Beauty,986.35,1.9
+Lipstick 4,Beauty,1009.45,2.0
+Lipstick 5,Beauty,471.06,3.4
+Lipstick 6,Beauty,242.05,3.5
+Lipstick 7,Beauty,1967.31,1.4
+Lipstick 8,Beauty,1200.93,3.2
+Lipstick 9,Beauty,1391.39,2.9
+Lipstick 10,Beauty,1277.05,3.2
+Lipstick 11,Beauty,658.61,3.8
+Lipstick 12,Beauty,1007.12,3.7
+Lipstick 13,Beauty,1526.52,1.9
+Lipstick 14,Beauty,1205.88,3.4
+Lipstick 15,Beauty,1351.07,3.2
+Lipstick 16,Beauty,1685.46,2.9
+Lipstick 17,Beauty,1103.42,2.0
+Lipstick 18,Beauty,333.01,2.8
+Lipstick 19,Beauty,1422.1,1.4
+Lipstick 20,Beauty,1978.72,3.0
+Foundation 1,Beauty,240.67,4.8
+Foundation 2,Beauty,1276.69,2.6
+Foundation 3,Beauty,992.63,3.4
+Foundation 4,Beauty,445.48,1.7
+Foundation 5,Beauty,465.56,5.0
+Foundation 6,Beauty,888.27,2.7
+Foundation 7,Beauty,893.67,5.0
+Foundation 8,Beauty,1898.34,4.9
+Foundation 9,Beauty,1569.91,2.2
+Foundation 10,Beauty,760.14,3.5
+Foundation 11,Beauty,1048.44,2.0
+Foundation 12,Beauty,1387.4,1.6
+Foundation 13,Beauty,349.62,1.8
+Foundation 14,Beauty,1385.91,3.5
+Foundation 15,Beauty,612.57,4.4
+Foundation 16,Beauty,1911.78,3.3
+Foundation 17,Beauty,1221.75,1.5
+Foundation 18,Beauty,360.81,1.8
+Foundation 19,Beauty,1235.25,1.9
+Foundation 20,Beauty,1553.61,1.3
+Perfume 1,Beauty,12.88,3.6
+Perfume 2,Beauty,1142.21,2.9
+Perfume 3,Beauty,1836.19,2.0
+Perfume 4,Beauty,369.81,4.9
+Perfume 5,Beauty,1421.28,2.6
+Perfume 6,Beauty,394.51,2.5
+Perfume 7,Beauty,223.27,4.8
+Perfume 8,Beauty,206.89,1.0
+Perfume 9,Beauty,491.11,1.9
+Perfume 10,Beauty,876.87,1.6
+Perfume 11,Beauty,1349.24,3.5
+Perfume 12,Beauty,113.34,4.9
+Perfume 13,Beauty,60.13,4.6
+Perfume 14,Beauty,100.16,2.3
+Perfume 15,Beauty,1194.17,4.9
+Perfume 16,Beauty,1679.59,4.2
+Perfume 17,Beauty,1255.68,2.1
+Perfume 18,Beauty,599.45,4.7
+Perfume 19,Beauty,490.41,2.1
+Perfume 20,Beauty,304.39,3.6
+Face Cream 1,Beauty,745.97,2.4
+Face Cream 2,Beauty,1460.33,2.6
+Face Cream 3,Beauty,1176.62,2.2
+Face Cream 4,Beauty,62.47,4.5
+Face Cream 5,Beauty,170.6,3.8
+Face Cream 6,Beauty,278.39,4.8
+Face Cream 7,Beauty,1791.03,3.0
+Face Cream 8,Beauty,637.47,3.5
+Face Cream 9,Beauty,444.7,3.9
+Face Cream 10,Beauty,1354.52,1.4
+Face Cream 11,Beauty,17.56,4.7
+Face Cream 12,Beauty,1857.42,4.6
+Face Cream 13,Beauty,477.67,1.2
+Face Cream 14,Beauty,1792.25,3.1
+Face Cream 15,Beauty,1893.44,2.6
+Face Cream 16,Beauty,1344.65,3.0
+Face Cream 17,Beauty,1409.28,3.1
+Face Cream 18,Beauty,1798.47,1.3
+Face Cream 19,Beauty,508.82,1.5
+Face Cream 20,Beauty,997.69,3.0
+Shampoo 1,Beauty,352.47,1.6
+Shampoo 2,Beauty,541.23,2.2
+Shampoo 3,Beauty,1377.39,3.4
+Shampoo 4,Beauty,1723.38,1.3
+Shampoo 5,Beauty,672.74,2.8
+Shampoo 6,Beauty,927.28,2.4
+Shampoo 7,Beauty,879.06,2.5
+Shampoo 8,Beauty,1602.59,1.8
+Shampoo 9,Beauty,571.31,3.9
+Shampoo 10,Beauty,1243.8,1.9
+Shampoo 11,Beauty,55.29,2.5
+Shampoo 12,Beauty,1414.14,4.0
+Shampoo 13,Beauty,1033.96,3.1
+Shampoo 14,Beauty,1679.36,3.2
+Shampoo 15,Beauty,1616.89,4.5
+Shampoo 16,Beauty,495.79,2.3
+Shampoo 17,Beauty,1247.47,4.9
+Shampoo 18,Beauty,1353.68,1.1
+Shampoo 19,Beauty,1802.86,3.0
+Shampoo 20,Beauty,248.27,3.9
+Product_Name,Product_Category,Price,Rating
+Smartphone 21,Electronics,799.45,4.2
+Smartphone 22,Electronics,1499.99,3.8
+Smartphone 23,Electronics,399.25,2.9
+Smartphone 24,Electronics,1800.12,4.7
+Laptop 21,Electronics,1100.78,3.5
+Laptop 22,Electronics,899.56,4.3
+Laptop 23,Electronics,1450.33,2.8
+Laptop 24,Electronics,650.99,4.1
+Wireless Earbuds 21,Electronics,299.89,3.9
+Wireless Earbuds 22,Electronics,1200.45,2.7
+Wireless Earbuds 23,Electronics,150.67,4.0
+Wireless Earbuds 24,Electronics,999.12,3.3
+Smartwatch 21,Electronics,450.23,4.8
+Smartwatch 22,Electronics,799.88,2.5
+Smartwatch 23,Electronics,199.99,3.6
+Smartwatch 24,Electronics,1300.55,4.4
+Tablet 21,Electronics,700.44,2.9
+Tablet 22,Electronics,300.88,3.7
+Tablet 23,Electronics,1500.11,4.5
+Tablet 24,Electronics,499.66,3.2
+T-Shirt 21,Clothing,250.78,4.0
+T-Shirt 22,Clothing,1100.45,3.4
+T-Shirt 23,Clothing,599.23,2.8
+T-Shirt 24,Clothing,1400.89,4.6
+Jeans 21,Clothing,399.12,3.9
+Jeans 22,Clothing,850.67,2.7
+Jeans 23,Clothing,200.45,4.2
+Jeans 24,Clothing,1300.33,3.5
+Sneakers 21,Clothing,700.56,4.1
+Sneakers 22,Clothing,499.89,3.8
+Sneakers 23,Clothing,1500.22,2.9
+Sneakers 24,Clothing,300.78,4.3
+Jacket 21,Clothing,600.44,3.6
+Jacket 22,Clothing,1200.99,4.5
+Jacket 23,Clothing,250.12,2.8
+Jacket 24,Clothing,1800.67,4.0
+Dress 21,Clothing,899.34,3.7
+Dress 22,Clothing,399.78,4.2
+Dress 23,Clothing,1400.56,3.3
+Dress 24,Clothing,600.23,4.8
+Microwave 21,Home Appliances,499.88,3.5
+Microwave 22,Home Appliances,1200.45,4.1
+Microwave 23,Home Appliances,299.67,2.7
+Microwave 24,Home Appliances,1500.33,4.4
+Refrigerator 21,Home Appliances,1800.12,3.9
+Refrigerator 22,Home Appliances,700.56,2.8
+Refrigerator 23,Home Appliances,999.23,4.6
+Refrigerator 24,Home Appliances,400.89,3.2
+Washing Machine 21,Home Appliances,850.44,4.0
+Washing Machine 22,Home Appliances,300.78,3.6
+Washing Machine 23,Home Appliances,1400.99,2.9
+Washing Machine 24,Home Appliances,600.12,4.3
+Air Conditioner 21,Home Appliances,499.56,3.8
+Air Conditioner 22,Home Appliances,1200.67,4.5
+Air Conditioner 23,Home Appliances,299.34,2.7
+Air Conditioner 24,Home Appliances,1500.78,4.1
+Vacuum Cleaner 21,Home Appliances,700.23,3.9
+Vacuum Cleaner 22,Home Appliances,399.88,4.2
+Vacuum Cleaner 23,Home Appliances,1300.45,3.4
+Vacuum Cleaner 24,Home Appliances,600.56,4.6
+Novel 21,Books,499.99,3.7
+Novel 22,Books,1200.12,4.0
+Novel 23,Books,299.45,2.8
+Novel 24,Books,1500.67,4.3
+Science Book 21,Books,700.78,3.5
+Science Book 22,Books,399.23,4.1
+Science Book 23,Books,1300.56,2.9
+Science Book 24,Books,600.89,4.4
+History Book 21,Books,850.44,3.8
+History Book 22,Books,300.12,4.6
+History Book 23,Books,1400.78,3.2
+History Book 24,Books,499.67,4.0
+Comics 21,Books,1200.34,3.9
+Comics 22,Books,299.88,4.2
+Comics 23,Books,1500.23,3.6
+Comics 24,Books,700.45,4.5
+Biography 21,Books,399.56,3.7
+Biography 22,Books,1300.99,4.1
+Biography 23,Books,600.12,2.8
+Biography 24,Books,1800.67,4.3
+Lipstick 21,Beauty,499.78,3.5
+Lipstick 22,Beauty,1200.45,4.0
+Lipstick 23,Beauty,299.23,2.9
+Lipstick 24,Beauty,1500.89,4.4
+Foundation 21,Beauty,700.56,3.8
+Foundation 22,Beauty,399.34,4.6
+Foundation 23,Beauty,1300.67,3.2
+Foundation 24,Beauty,600.78,4.1
+Perfume 21,Beauty,850.23,3.9
+Perfume 22,Beauty,300.56,4.2
+Perfume 23,Beauty,1400.45,3.6
+Perfume 24,Beauty,499.12,4.5
+Face Cream 21,Beauty,1200.78,3.7
+Face Cream 22,Beauty,299.89,4.0
+Face Cream 23,Beauty,1500.34,3.4
+Face Cream 24,Beauty,700.23,4.3
+Shampoo 21,Beauty,399.56,3.8
+Shampoo 22,Beauty,1300.12,4.6
+Shampoo 23,Beauty,600.78,3.2
+Shampoo 24,Beauty,1800.45,4.1
+Product_Name,Product_Category,Price,Rating
+Running Shoes 1,Sports & Outdoors,150.99,4.2
+Running Shoes 2,Sports & Outdoors,299.45,3.8
+Running Shoes 3,Sports & Outdoors,89.75,4.5
+Running Shoes 4,Sports & Outdoors,200.12,3.6
+Running Shoes 5,Sports & Outdoors,350.67,4.0
+Yoga Mat 1,Sports & Outdoors,45.89,3.9
+Yoga Mat 2,Sports & Outdoors,75.23,4.3
+Yoga Mat 3,Sports & Outdoors,30.56,2.8
+Yoga Mat 4,Sports & Outdoors,99.78,4.7
+Yoga Mat 5,Sports & Outdoors,60.34,3.5
+Bicycle 1,Sports & Outdoors,499.99,4.1
+Bicycle 2,Sports & Outdoors,799.12,3.7
+Bicycle 3,Sports & Outdoors,350.45,4.4
+Bicycle 4,Sports & Outdoors,1200.89,3.3
+Bicycle 5,Sports & Outdoors,650.23,4.6
+Camping Gear 1,Sports & Outdoors,250.67,3.8
+Camping Gear 2,Sports & Outdoors,399.34,4.2
+Camping Gear 3,Sports & Outdoors,150.12,3.5
+Camping Gear 4,Sports & Outdoors,600.78,4.0
+Camping Gear 5,Sports & Outdoors,299.56,3.9
+Cookware 1,Home & Kitchen,89.45,4.3
+Cookware 2,Home & Kitchen,150.78,3.7
+Cookware 3,Home & Kitchen,250.23,4.5
+Cookware 4,Home & Kitchen,99.12,3.2
+Cookware 5,Home & Kitchen,200.56,4.1
+Cutlery 1,Home & Kitchen,45.67,3.8
+Cutlery 2,Home & Kitchen,75.89,4.4
+Cutlery 3,Home & Kitchen,30.23,3.6
+Cutlery 4,Home & Kitchen,120.45,4.2
+Cutlery 5,Home & Kitchen,60.78,3.9
+Tableware 1,Home & Kitchen,150.34,4.0
+Tableware 2,Home & Kitchen,299.67,3.5
+Tableware 3,Home & Kitchen,89.12,4.3
+Tableware 4,Home & Kitchen,200.89,3.8
+Tableware 5,Home & Kitchen,350.23,4.6
+Kitchen Gadget 1,Home & Kitchen,25.56,3.7
+Kitchen Gadget 2,Home & Kitchen,75.34,4.1
+Kitchen Gadget 3,Home & Kitchen,50.78,3.4
+Kitchen Gadget 4,Home & Kitchen,100.12,4.5
+Kitchen Gadget 5,Home & Kitchen,30.89,3.9
+Board Game 1,Toys & Games,49.99,4.2
+Board Game 2,Toys & Games,75.45,3.8
+Board Game 3,Toys & Games,30.12,4.4
+Board Game 4,Toys & Games,99.78,3.6
+Board Game 5,Toys & Games,60.23,4.0
+Action Figure 1,Toys & Games,25.67,3.9
+Action Figure 2,Toys & Games,50.89,4.3
+Action Figure 3,Toys & Games,15.34,3.5
+Action Figure 4,Toys & Games,75.12,4.1
+Action Figure 5,Toys & Games,40.56,3.8
+Puzzle 1,Toys & Games,20.78,4.2
+Puzzle 2,Toys & Games,45.23,3.7
+Puzzle 3,Toys & Games,30.89,4.0
+Puzzle 4,Toys & Games,60.45,3.6
+Puzzle 5,Toys & Games,25.12,4.4
+Building Set 1,Toys & Games,99.67,4.1
+Building Set 2,Toys & Games,150.34,3.9
+Building Set 3,Toys & Games,75.78,4.3
+Building Set 4,Toys & Games,200.12,3.5
+Building Set 5,Toys & Games,50.89,4.6
+Sofa 1,Furniture,799.99,4.0
+Sofa 2,Furniture,1200.45,3.8
+Sofa 3,Furniture,499.12,4.2
+Sofa 4,Furniture,1500.78,3.6
+Sofa 5,Furniture,999.23,4.4
+Dining Table 1,Furniture,600.56,3.9
+Dining Table 2,Furniture,899.34,4.1
+Dining Table 3,Furniture,350.78,3.7
+Dining Table 4,Furniture,1200.12,4.3
+Dining Table 5,Furniture,700.45,3.5
+Chair 1,Furniture,150.89,4.0
+Chair 2,Furniture,250.23,3.8
+Chair 3,Furniture,99.67,4.2
+Chair 4,Furniture,350.56,3.9
+Chair 5,Furniture,200.12,4.4
+Bed 1,Furniture,999.78,3.7
+Bed 2,Furniture,1500.34,4.1
+Bed 3,Furniture,600.89,3.5
+Bed 4,Furniture,1200.23,4.3
+Bed 5,Furniture,799.56,3.9
+Necklace 1,Jewelry & Accessories,250.45,4.2
+Necklace 2,Jewelry & Accessories,499.12,3.8
+Necklace 3,Jewelry & Accessories,150.78,4.0
+Necklace 4,Jewelry & Accessories,799.34,3.6
+Necklace 5,Jewelry & Accessories,350.67,4.4
+Bracelet 1,Jewelry & Accessories,99.89,3.9
+Bracelet 2,Jewelry & Accessories,200.23,4.1
+Bracelet 3,Jewelry & Accessories,75.56,3.7
+Bracelet 4,Jewelry & Accessories,300.12,4.3
+Bracelet 5,Jewelry & Accessories,150.45,3.5
+Sunglasses 1,Jewelry & Accessories,120.78,4.2
+Sunglasses 2,Jewelry & Accessories,250.34,3.8
+Sunglasses 3,Jewelry & Accessories,80.12,4.0
+Sunglasses 4,Jewelry & Accessories,350.89,3.6
+Sunglasses 5,Jewelry & Accessories,199.67,4.4
+Watch 1,Jewelry & Accessories,499.23,3.9
+Watch 2,Jewelry & Accessories,799.56,4.1
+Watch 3,Jewelry & Accessories,250.78,3.7
+Watch 4,Jewelry & Accessories,1200.45,4.3
+Watch 5,Jewelry & Accessories,600.12,3.5

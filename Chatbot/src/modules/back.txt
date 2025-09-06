@@ -1,0 +1,307 @@
+
+import requests
+import os
+import dotenv
+
+dotenv.load_dotenv()  
+
+class LoctWeatherAPI:
+    def __init__(self):
+        self.api_key = os.environ.get("WEATHER_API_KEY")
+        if not self.api_key:
+            raise ValueError("WEATHER_API_KEY is missing in environment variables")
+
+    def get_current_location(self):
+
+        try:
+            res = requests.get("https://ipinfo.io/json", timeout=5).json()
+            loc = res["loc"].split(",")
+            lat = float(loc[0])
+            lon = float(loc[1])
+
+            city = res.get("city")
+            country = res.get("country")
+            address = f"{city}, {country}"
+            return [lat, lon, city, country, address]
+        except Exception as e:
+            print("Error fetching location:", e)
+           
+            return [30.0444, 31.2357, "Cairo", "EG", "Cairo, Egypt"]
+
+    def get_current_weather(self, city: str = None, lat: float = None, lon: float = None):
+        
+        try:
+            if lat and lon:  
+                url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={self.api_key}&units=metric"
+            elif city: 
+                url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={self.api_key}&units=metric"
+            else:
+                return ["unavailable", None]
+
+            res = requests.get(url, timeout=5).json()
+            print("Weather API Response:", res)  # Debug
+
+            if res.get("cod") != 200:  # API error
+                return [f"Error: {res.get('message', 'Unknown error')}", None]
+
+            return [res["weather"][0]["description"], res["main"]["temp"]]
+        except Exception as e:
+            return [f"unavailable ({str(e)})", None]
+
+
+
+
+
+# import geocoder
+# import requests
+# import os
+# import dotenv
+# dotenv.load_dotenv()
+
+# class LoctWeatherAPI:
+#     def __init__(self):
+#         self.api_key = os.environ.get("WEATHER_API_KEY")
+#         if not self.api_key:
+#             raise ValueError("WEATHER_API_KEY is missing in environment variables")
+    
+
+#     def get_current_location(self):
+#         res = requests.get("https://ipinfo.io/json", timeout=5).json()
+#         # g=geocoder.ip('me')
+#         # latLangList = g.latlng
+#         loc = res["loc"].split(",")
+#         lat = float(loc[0])
+#         lon = float(loc[1])
+
+#         city = res.get("city")
+#         country = res.get("country")
+#         address = f"{city}, {country}"
+#         return [lat, lon, city, country, address]
+
+#     def get_current_weather(self, city: str, lat: float = None, lon: float = None):
+        
+        
+#         try:
+#             if lat and lon:
+#                 url = f"http://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={self.api_key}&units=metric"
+#             elif city:
+#                 url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={self.api_key}&units=metric"
+
+
+#             res = requests.get(url, timeout=5).json()
+
+#             if "weather" in res and "main" in res:
+#                 return [res["weather"][0]["description"], res["main"]["temp"]]
+#             else:
+#                 return ["unavailable", None]
+#         except Exception:
+#             return ["unavailable", None]
+
+# # class test 
+# ob = LoctWeatherAPI()
+# print(ob.get_current_location())
+# print(ob.get_current_weather(ob.get_current_location()[2]))
+
+
+# ob = LoctWeatherAPI()
+# print(ob.get_current_location())
+# print(ob.get_current_weather("Cairo"))
+
+
+=================================================
+
+
+from fastapi import FastAPI
+# from routers import chat_router
+from controllers.ObjectUserDataCont import ObjectUserData , ChatResponse
+from modules.WeatherLoc import LoctWeatherAPI
+from database.mongo_handler import MongoHandler
+
+
+app = FastAPI(title="ChatGPT API")
+
+mongo_handler = MongoHandler()
+
+# app.include_router(chat_router.router)
+
+
+@app.get("/")
+def health_chek():
+    return {"status": "ok"}
+
+
+# first endpoint for the user Data 
+weather_api = LoctWeatherAPI()
+
+@app.post("/user_response" ,  response_model=ChatResponse)
+def upload_user_data(userdata:ObjectUserData):
+    
+    
+    reply = f""" hello {userdata.name} I see your message is {userdata.message}"""
+    # location = weather_api.get_current_location()
+    
+    
+    location = weather_api.get_current_location()
+    if not location or not location[2]:
+            # fallback location if city is None
+            location = [30.0444, 31.2357, "Cairo", "EG", "Cairo, Egypt"]
+    
+    
+    try:
+            weather =  weather_api.get_current_weather(
+        city=location[2],
+        lat=location[0],
+        lon=location[1]
+    )
+    except Exception:
+            weather = ["unavailable", None]
+
+    mongo_handler.save_interaction(
+        name  = userdata.name,
+        messages = userdata.message,
+        location = location,
+        weather = weather,
+        reply = reply
+    )
+    
+    
+    return ChatResponse(
+        reply=reply,
+        location=location,
+        weather=weather,
+        recommend_products=[]
+    )
+
+=================================================================================
+
+import google.generativeai as genai
+import requests
+import geocoder
+from sentence_transformers import SentenceTransformer
+import numpy as np
+import pandas as pd
+import faiss
+
+class Config:
+    # TODO: Replace with environment variables for security (e.g., os.environ.get('GOOGLE_API_KEY'))
+    GOOGLE_API_KEY = "AIzaSyAV6wf_016YWW30IvLOZ55rC1a5KRIvWKQ"
+    WEATHER_API_KEY = "cb7539b7ea97db2b57bcb4ef0379f835"
+    MODEL_NAME = "gemini-2.5-flash"
+    EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+
+class WeatherService:
+    def __init__(self, api_key):
+        self.api_key = api_key
+
+    def get_weather(self, city=None):
+        try:
+            if city is None:
+                g = geocoder.ip('me')
+                city = g.city or "unknown"
+            url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={self.api_key}&units=metric"
+            res = requests.get(url).json()
+            if res.get('cod') != 200:
+                raise Exception(f"Weather API error: {res.get('message', 'Unknown error')}")
+            return res['weather'][0]['description']
+        except Exception as e:
+            print(f"Error fetching weather: {e}")
+            return "unknown"
+
+class VectorSearch:
+    def __init__(self, embedding_model_name, df, index):
+        self.embedding_model = SentenceTransformer(embedding_model_name)
+        self.df = df  # Product DataFrame
+        self.index = index  # FAISS index
+
+    def search(self, query, top_k=3):
+        try:
+            query_vec = self.embedding_model.encode([query], convert_to_numpy=True)
+            distances, indices = self.index.search(query_vec, top_k)
+            return self.df.iloc[indices[0]]
+        except Exception as e:
+            print(f"Error in vector search: {e}")
+            return self.df.head(top_k)  # Fallback to first top_k rows
+
+class ECommerceAssistant:
+    def __init__(self, google_api_key, model_name, vector_search, weather_service):
+        genai.configure(api_key=google_api_key)
+        self.model = genai.GenerativeModel(model_name)
+        self.vector_search = vector_search
+        self.weather_service = weather_service
+
+    def recommend_and_generate(self, query, top_k=3, use_weather=False, username=None):
+        if use_weather:
+            query = self.weather_service.get_weather()
+        
+        results = self.vector_search.search(query, top_k)
+        product_list = results.to_dict(orient="records")
+
+        prompt = (
+            f"You are an e-commerce shopping assistant.\n"
+            f"{'Hello ' + username + '! ' if username else ''}"
+            f"The user asked for: '{query}'.\n"
+            f"{'This is based on current weather conditions.' if use_weather else ''}\n\n"
+            f"Available products:\n{product_list}\n\n"
+            "Recommend only from these products. "
+            "Write in natural, friendly language. "
+            "Mention product names, prices, and ratings where helpful."
+        )
+
+        try:
+            response = self.model.generate_content(prompt)
+            return response.text
+        except Exception as e:
+            print(f"Error generating response: {e}")
+            return "Sorry, I couldn't generate recommendations at this time."
+
+def setup_assistant():
+    """Set up the e-commerce assistant with DataFrame and FAISS index."""
+    config = Config()
+    
+    # Load product data (replace 'ecommerce_data.csv' with your actual file path)
+    try:
+        df = pd.read_csv('ecommerce_data.csv')
+    except FileNotFoundError:
+        print("Error: 'ecommerce_data.csv' not found. Please provide the correct file path.")
+        return None, None, None
+
+    # Create text representation for embeddings (Product_Name + Product_Category)
+    df["text"] = df["Product_Name"] + " " + df["Product_Category"]
+    
+    # Generate embeddings and FAISS index
+    model = SentenceTransformer(config.EMBEDDING_MODEL)
+    embeddings = model.encode(df["text"].tolist(), convert_to_numpy=True)
+    dimension = embeddings.shape[1]
+    index = faiss.IndexFlatL2(dimension)  # L2 = Euclidean distance
+    index.add(embeddings)
+    
+    # Initialize services
+    weather_service = WeatherService(config.WEATHER_API_KEY)
+    vector_search = VectorSearch(config.EMBEDDING_MODEL, df, index)
+    assistant = ECommerceAssistant(config.GOOGLE_API_KEY, config.MODEL_NAME, vector_search, weather_service)
+    
+    return assistant, df, index
+
+def run_examples(assistant):
+    """Run initial weather-based query and allow additional user queries."""
+    if assistant is None:
+        print("Assistant setup failed. Cannot run examples.")
+        return
+
+    # Initial weather-based recommendation
+    username = input("\nHi! How are you? We hope you're having a good day. Can you tell us your name? ")
+    print(assistant.recommend_and_generate(query=None, use_weather=True, username=username))
+
+    # Loop for additional user queries
+    while True:
+        
+        query = input("\nWhat else would you like to find? (Type 'stop' to exit): ")
+        if query.lower() == "stop":
+            print(f"Goodbye {username}!")
+            break
+        print(f"\nRecommendations for '{query}':")
+        print(assistant.recommend_and_generate(query=query, username=username))
+
+if __name__ == "__main__":
+    assistant, df, index = setup_assistant()
+    run_examples(assistant)

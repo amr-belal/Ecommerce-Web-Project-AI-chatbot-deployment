@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+requests
+geocoder
+python-dotenv
+pymongo
+pandas
+numpy
+scikit-learn
+spacy
+openai
+google-generativeai
+yake
+spacy

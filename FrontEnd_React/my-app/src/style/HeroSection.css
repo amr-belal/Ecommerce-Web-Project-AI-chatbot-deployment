@@ -1,0 +1,410 @@
+.hero-section {
+  background: linear-gradient(135deg, #f5f0e8 0%, #ede4d3 50%, #F5AB98 100%);
+  min-height: 91vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  padding: 80px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.customers-badge-desktop {
+  left: 8%;
+  top: 15%;
+  background: #ddd6c9;
+  padding: 15px 20px;
+  border-radius: 15px;
+  align-items: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  z-index: 3;
+}
+
+.avatar-1 {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #F1EADE;
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+}
+
+.avatar-2 {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #F1EADE;
+  margin-left: -8px;
+  background: linear-gradient(45deg, #ff9a56, #ffad56);
+}
+
+.customer-text-desktop {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2c2c2c;
+}
+
+
+
+
+/* Mobile Customers Badge */
+.customers-content-mobile {
+  background: #ddd6c9;
+  padding: 10px 15px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-mobile-1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #F1EADE;
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+}
+
+.avatar-mobile-2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #F1EADE;
+  margin-left: -8px;
+  background: linear-gradient(45deg, #ff9a56, #ffad56);
+}
+
+
+
+/* Desktop Organic Badge */
+.organic-badge-desktop {
+  right: 11.5%;
+  top: 11%;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  z-index: 3;
+}
+
+.organic-text-desktop {
+  font-size: 12px;
+  font-weight: 600;
+  color: #2c2c2c;
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Mobile Organic Badge */
+.organic-content-mobile {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.organic-text-mobile {
+  font-size: 12px;
+  color: #2c2c2c;
+}
+
+.play-button-desktop {
+  right: 14%;
+  top: 36%;
+  width: 50px;
+  height: 50px;
+  background: #2c2c2c;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  z-index: 4;
+  transition: transform 0.3s ease;
+}
+
+.play-button-desktop:hover {
+  transform: scale(1.1);
+}
+
+.play-icon {
+  width: 0;
+  height: 0;
+  border-left: 15px solid white;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  margin-left: 3px;
+}
+
+
+.perfume-left-desktop {
+  left: 5%;
+  top: 70%;
+  transform: translateY(-50%);
+  width: 290px;
+  height: 320px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.perfume-right-desktop {
+  right: 5%;
+  top: 25%;
+  width: 320px;
+  height: 380px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.perfume-img-desktop {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Mobile Perfume Images */
+.perfume-mobile-container {
+  width: 150px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.perfume-img-mobile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Hero Content */
+.hero-content-responsive {
+  padding: 40px 0;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  
+}
+
+.main-title-responsive {
+  font-size: 4rem;
+  font-weight: 400;
+  color: #2c2c2c;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.subtitle-responsive {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+.buy-now-btn-responsive {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  
+  transition: all 0.3s ease;
+}
+
+.buy-now-btn-responsive:hover {
+  color: #2c2c2c;
+  background-color: #F1EADE;
+  transform: translateY(-2px);
+}
+
+/* Desktop Essence Text */
+.essence-text-desktop {
+  left: 50%;
+  top: 90%;
+  transform: translateX(-50%);
+  font-size: 5rem;
+  font-weight: 100;
+  color: #f6c180;
+  font-style: italic;
+  font-family: 'Brush Script MT', cursive;
+  z-index: 2;
+}
+
+/* Mobile Essence Text */
+.essence-text-mobile {
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: #f6c180;
+  font-style: italic;
+  font-family: 'Brush Script MT', cursive;
+}
+
+/* Desktop Essence Description */
+.essence-description-desktop {
+  left: 50%;
+  top: 125%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.essence-title-desktop {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2c2c2c;
+  margin-bottom: 8px;
+}
+
+.essence-subtitle-desktop {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  color: #666;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Mobile Essence Description */
+.essence-title-mobile {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c2c2c;
+  margin-bottom: 8px;
+}
+
+.essence-subtitle-mobile {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  color: #666;
+  margin: 0;
+}
+
+/* Desktop Learn More */
+.learn-more-desktop {
+  right: 12%;
+  bottom: -50%;
+  z-index: 3;
+}
+
+/* Learn More Link */
+.learn-more-link {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 1px;
+  transition: color 0.3s ease;
+}
+
+.learn-more-link:hover {
+  color: #d77b5d;
+  border-bottom-color: #d77b5d;
+}
+
+/* Desktop Scroll Indicator */
+.scroll-indicator-desktop {
+  left: 50%;
+  bottom: -80%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+
+.scroll-down-desktop {
+  width: 40px;
+  height: 40px;
+  background: #2c2c2c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.scroll-down-desktop:hover {
+  background-color: #d77b5d;
+  transform: translateY(5px);
+}
+
+/* Mobile Scroll Indicator */
+.scroll-down-mobile {
+  width: 40px;
+  height: 40px;
+  background: #2c2c2c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.scroll-down-mobile:hover {
+  background-color: #d77b5d;
+}
+
+/* Scroll Arrow */
+.scroll-arrow {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 12px solid white;
+}
+
+/* Bootstrap Responsive Adjustments */
+/* For tablets and small laptops */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .main-title-responsive {
+    font-size: 3rem;
+  }
+  
+  .essence-text-desktop {
+    font-size: 4rem;
+  }
+  
+  .perfume-left-desktop {
+    width: 250px;
+    height: 280px;
+  }
+  
+  .perfume-right-desktop {
+    width: 280px;
+    height: 340px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 767.98px) {
+  .main-title-responsive {
+    font-size: 2.5rem;
+  }
+  
+  .subtitle-responsive {
+    font-size: 1rem;
+  }
+  
+  .buy-now-btn-responsive {
+    padding: 12px 30px;
+    font-size: 14px;
+  }
+  
+  .hero-content-responsive {
+    padding: 20px 0;
+  }
+}
