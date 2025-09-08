@@ -12,3 +12,7 @@ openai
 google-generativeai
 yake
 spacy
+chromadb
+langchain_google_genai
+langchain-community
+faiss-cpu

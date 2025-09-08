@@ -37,7 +37,7 @@ function Header() {
             Collections
           </Nav.Link>
 
-          <Navbar.Brand href="#home" className="mx-3" id="brand">
+          <Navbar.Brand href="#home" className="mx-3" id="brand" onClick={submit}>
             Rouh
           </Navbar.Brand>
 

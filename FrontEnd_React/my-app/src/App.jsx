@@ -10,12 +10,12 @@ import ProductGalleryPage from './pages/ProductGalleryPage.jsx';
 import CartPage from './pages/CartPage.jsx';
 import OrderSuccessPage from './pages/OrderSuccessPage.jsx';
 
-// ✨ import CartProvider
+
 import { CartProvider } from './context/cartContext';
 
 function App() {
   return (
-    // ✨ لف كل حاجة بـ CartProvider
+   
     <CartProvider>
       <Router>
         <Routes>

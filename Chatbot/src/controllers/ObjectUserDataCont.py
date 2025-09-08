@@ -15,6 +15,6 @@ class Location(BaseModel):
 class ChatResponse(BaseModel):
     reply :str 
     location :List 
-    keywords :list[str] = []
+    keywords :List[str] = []
     weather :List
     recommend_products: Optional[List[str]] = []

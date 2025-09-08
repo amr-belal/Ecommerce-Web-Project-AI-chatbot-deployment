@@ -6,16 +6,21 @@ import ProductDetailsPage from './ProductDetailsPage'
 import ProductGallery from './ProductGalleryPage'
 import Footer from '../components/Footer'
 import Newsletter from '../components/NewsLetter'
+import ChatBot from '../components/ChatBot'
+import ScrollToTop from '../components/ScrollToTop'
 function HomePage() {
   return (
      <div>
       <Header/>
       <HeroSection/>
+      
       <TopSellingSection/>
       {/* <ProductDetailsPage/> */}
       <ProductGallery/>
       <Newsletter/>
       <Footer/>
+      <ScrollToTop/>
+      <ChatBot/>
     </div>
      
   )

@@ -4,6 +4,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { CartContext } from "../context/cartContext";
 import '../style/ProductDetails.css';
+import Header from '../components/Header'
 function ProductDetailsPage() {
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -32,6 +33,8 @@ function ProductDetailsPage() {
     navigate("/cart"); 
   };
  return (
+   <>
+    <Header />
     <Container className="container fluid ">
       <Row>
         <Col md={4}>
@@ -52,6 +55,7 @@ function ProductDetailsPage() {
         </Col>
       </Row>
     </Container>
+   </>
   );
 }
 

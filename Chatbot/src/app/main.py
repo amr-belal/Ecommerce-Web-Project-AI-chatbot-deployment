@@ -4,11 +4,23 @@ from controllers.ObjectUserDataCont import ObjectUserData , ChatResponse
 from modules.WeatherLoc import LoctWeatherAPI
 from database.mongo_handler import MongoHandler
 from LLMFactory.KeywordExtractorContFactory import Factory_Extractor
+from LLMFactory.PerfumeLLM import PefumeShopchatbot
+
+from fastapi.middleware.cors import CORSMiddleware
+
+
 
 app = FastAPI(title="ChatGPT API")
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # أو ["http://localhost:3000"]
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 mongo_handler = MongoHandler()
 
+bot = PefumeShopchatbot()
 
 # get extraxtor factory (yake)
 extractor = Factory_Extractor.create("yake")
@@ -27,7 +39,7 @@ weather_api = LoctWeatherAPI()
 def upload_user_data(userdata:ObjectUserData):
     
     
-    reply = f""" hello {userdata.name} I see your message is {userdata.message}"""
+    reply = bot.gemini_bot(userdata.message)
     # location = weather_api.get_current_location()
     
     
@@ -49,7 +61,6 @@ def upload_user_data(userdata:ObjectUserData):
         weather = weather,
         reply = reply,
         
-     
     )
     
     
@@ -57,7 +68,6 @@ def upload_user_data(userdata:ObjectUserData):
         reply=reply,
         location=location,
         weather=weather,
-        
         keywords = extractor.yake_keywords(userdata.message),
         recommend_products=[]
     )

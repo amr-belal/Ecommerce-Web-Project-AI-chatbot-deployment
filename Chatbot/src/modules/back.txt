@@ -305,3 +305,22 @@ def run_examples(assistant):
 if __name__ == "__main__":
     assistant, df, index = setup_assistant()
     run_examples(assistant)
+
+
+
+
+
+
+
+
+
+
+
+
+================================
+prompts 
+
+ 2. Ask discovery questions to understand preferences
+                            3. Provide 2-3 tailored recommendations with explanations
+                            4. Help them decide and suggest purchase options
+                            5. Offer additional assistance

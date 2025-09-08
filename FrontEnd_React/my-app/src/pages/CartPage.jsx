@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { CartContext } from "../context/cartContext";
 import { useNavigate } from "react-router-dom";
 import '../style/CartPage.css';
+import Header from '../components/Header'
 function CartPage() {
   const { cart, updateQuantity, clearCart } = useContext(CartContext);
   const navigate = useNavigate();
@@ -14,7 +15,11 @@ function CartPage() {
   };
 
   return (
+    
+    <>
+    <Header />
     <div className="container mt-5">
+      
       <h2 className="mb-4 text-center">Your Cart</h2>
       {cart.length === 0 ? (
         <p>No items in cart</p>
@@ -35,6 +40,7 @@ function CartPage() {
         </>
       )}
     </div>
+    </>
   );
 }
 
