@@ -49,7 +49,7 @@ class PefumeShopchatbot:
         genai.configure(api_key=self.API_KEY)
         
         self.model = genai.GenerativeModel(
-            model_name='gemini-2.5-flash',
+            model_name='gemini-1.5-flash',
             generation_config=genai.types.GenerationConfig(
                     temperature=0.7,
                     top_p=0.8,
