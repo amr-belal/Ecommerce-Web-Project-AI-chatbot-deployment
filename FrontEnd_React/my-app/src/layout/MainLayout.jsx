@@ -6,8 +6,8 @@ import RegisterPage from '../pages/RegisterPage.jsx'
 function MainLayout() {
   return (
     <>
-    {/* <RegisterPage /> */}
-    <HomePage />
+    <RegisterPage />
+    {/* <HomePage /> */}
     
     </>
   )

@@ -8,13 +8,18 @@ import Footer from '../components/Footer'
 import Newsletter from '../components/NewsLetter'
 import ChatBot from '../components/ChatBot'
 import ScrollToTop from '../components/ScrollToTop'
+import NewCollectionSlider from '../components/ProductSlider'
+import ProductSlider from '../components/ProductSlider';
 function HomePage() {
   return (
      <div>
       <Header/>
+      
       <HeroSection/>
       
       <TopSellingSection/>
+      <ProductSlider type="new"/> 
+
       {/* <ProductDetailsPage/> */}
       <ProductGallery/>
       <Newsletter/>

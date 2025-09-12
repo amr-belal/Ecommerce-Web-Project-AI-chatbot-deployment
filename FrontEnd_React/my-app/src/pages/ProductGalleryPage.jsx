@@ -30,9 +30,7 @@ function ProductDetailsPage() {
 
     if (filter === "All Perfume") {
       tempProducts = products;
-    } else if (filter === "New Collection") {
-      tempProducts = [...products].reverse();
-    } else if (filter === "Men") {
+    }  else if (filter === "Men") {
       tempProducts = [...products].filter((product)=>product.category === "men");
     }
     else if (filter === "Women") {
@@ -53,7 +51,7 @@ function ProductDetailsPage() {
         <h2 className="mb-4">Grab Your Signature Scent Today!</h2>
 
         <div className="d-flex justify-content-center gap-2 mb-4">
-          {["All Perfume", "New Collection", "Men", "Women"].map((filter) => (
+          {["All Perfume", "Men", "Women"].map((filter) => (
             <button 
               key={filter}
               className={`filterButton btn btn-dark rounded-pill px-4 ${

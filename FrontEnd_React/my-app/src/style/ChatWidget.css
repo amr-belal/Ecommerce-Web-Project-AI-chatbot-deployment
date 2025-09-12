@@ -1,81 +1,4 @@
-/* .chat-btn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #ff58f1;
-  border: none;
-  border-radius: 50%;
-  padding: 12px;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-}
 
-.chat-box {
-  position: fixed;
-  bottom: 80px;
-  right: 20px;
-  width: 320px;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-  display: flex;
-  flex-direction: column;
-}
-
-.chat-header {
-  padding: 10px;
-  background: #ff58f1;
-  color: white;
-  font-weight: bold;
-  display: flex;
-  justify-content: space-between;
-}
-
-.chat-messages {
-  padding: 10px;
-  flex: 1;
-  overflow-y: auto;
-  max-height: 300px;
-}
-
-.msg {
-  margin-bottom: 8px;
-  padding: 8px 10px;
-  border-radius: 8px;
-}
-
-.msg.user {
-  background: #e3f2fd;
-  align-self: flex-end;
-}
-
-.msg.bot {
-  background: #f1f1f1;
-  align-self: flex-start;
-}
-
-.chat-input {
-  display: flex;
-  border-top: 1px solid #ddd;
-}
-
-.chat-input input {
-  flex: 1;
-  border: none;
-  padding: 10px;
-}
-
-.chat-input button {
-  background: #ff58f1;
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-  color: white;
-} */
-
-
-
-/* زرار الفتح */
 .chat-btn {
   position: fixed;
   bottom: 20px;
@@ -89,7 +12,7 @@
   color: white;
 }
 
-/* البوكس */
+
 .chat-box {
   position: fixed;
   bottom: 80px;
@@ -104,7 +27,7 @@
   overflow: hidden;
 }
 
-/* الهيدر */
+
 .chat-header {
   padding: 12px;
   background: #ff58f1;
@@ -116,7 +39,7 @@
   border-top-right-radius: 16px;
 }
 
-/* الداشبورد */
+
 .chat-dashboard {
   padding: 10px;
   background: linear-gradient(135deg, #f5f0e8 0%, #ede4d3 50%, #F5AB98 100%);
@@ -136,7 +59,7 @@
   font-size: 0.8em;
 }
 
-/* الرسائل */
+
 .chat-messages {
   padding: 12px;
   flex: 1;
@@ -183,7 +106,7 @@
 }
 
 
-/* زرار الإكس (close) */
+
 .chat-header button {
   background: transparent;
   border: none;
@@ -205,7 +128,7 @@
   transform: rotate(90deg);
 }
 
-/* البوكس كله يبقى فوق الـ hero section */
+
 .chat-box {
   z-index: 9999 !important;
 }
@@ -213,7 +136,7 @@
 .chat-btn {
   z-index: 9999 !important;
 }
-/* البوكس */
+
 .chat-box {
   position: fixed;
   bottom: 80px;
@@ -226,23 +149,21 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  resize: both;          /* يسمح بالكبر/الصغر */
-  min-width: 250px;      /* أقل عرض */
-  min-height: 300px;     /* أقل ارتفاع */
-  max-width: 600px;      /* أكبر عرض */
-  max-height: 80vh;      /* أكبر ارتفاع */
+  resize: both;          
+  min-width: 250px;     
+  min-height: 300px;     
+  max-width: 600px;      
+  max-height: 80vh;      
   z-index: 9999;
 }
 
-/* الرسائل */
+
 .chat-messages {
   flex: 1;
   padding: 10px;
-  overflow-y: auto;      /* Scroll رأسي */
+  overflow-y: auto;   
   word-wrap: break-word;
 }
-
-/* Scrollbar شكل أنعم */
 .chat-messages::-webkit-scrollbar {
   width: 6px;
 }

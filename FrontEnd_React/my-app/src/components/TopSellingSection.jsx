@@ -24,7 +24,7 @@ function TopSellingSection() {
   return (
     <Container fluid className="top-selling-section">
     
-    <div className=" perfume-nav py-2">
+    <div className=" perfume-nav py-2"> 
       <ul className="nav justify-content-center">
         <li className="nav-item mx-4">
           <span className="nav-link">Fragrance Defined</span>
