@@ -32,7 +32,7 @@
 
 The Python backend is organized for separation of concerns and maintainability.
 
-
+```
 .
 ├── src/
 │   ├── controllers/
@@ -53,7 +53,7 @@ The Python backend is organized for separation of concerns and maintainability.
 │   ├── main.py                           # FastAPI entry point and API routes
 ├── docker-compose.yaml                   # MongoDB setup
 └── README.md
-
+```
 
 
 ---
