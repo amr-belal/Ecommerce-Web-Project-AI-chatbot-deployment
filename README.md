@@ -114,18 +114,18 @@ npm install
 npm run dev # or npm start
 ```
 
-💡 Chatbot Interaction Flow
-When a user sends a message to Aria:
+### 💡 Chatbot Interaction Flow
+#### When a user sends a message to Aria:
 
-The POST /user_response endpoint is triggered.
+- The POST /user_response endpoint is triggered.
 
-The PerfumeRetrievalFAISS performs a semantic search against the product vector database, retrieving the top relevant products.
+- The PerfumeRetrievalFAISS performs a semantic search against the product vector database, retrieving the top relevant products.
 
-The system retrieves the user's location and current weather data.
+- The system retrieves the user's location and current weather data.
 
-The PerfumeAgent generates a response, leveraging the retrieved products as context, along with the weather data and its expert persona (Aria).
+- The PerfumeAgent generates a response, leveraging the retrieved products as context, along with the weather data and its expert persona (Aria).
 
-The entire interaction (message, reply, location, weather) is saved to MongoDB.
+- The entire interaction (message, reply, location, weather) is saved to MongoDB.
 
-The final reply, along with extracted keywords and context data, is returned to the frontend.
+- The final reply, along with extracted keywords and context data, is returned to the frontend.
 
